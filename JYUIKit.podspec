@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JYUIKit"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "JY team UIKit"
 
   # This description is used to generate tags and improve search results.
@@ -39,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #spec.license      = "MIT"
-  spec.license      = { :type => "MIT", :file => "LICENSE" }
+  spec.license      = "MIT"
+  #spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,11 +68,11 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
+  spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
-
+  spec.swift_version = "5.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/jiyongTeam/BaseUIKit.git", :tag => "#{0.01}" }
+  spec.source       = { :git => "https://github.com/jiyongTeam/BaseUIKit.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "JYUIKit", "UIKit/**/*.{swift}"
+  spec.source_files  =  "JYUIKit/*"
   spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
