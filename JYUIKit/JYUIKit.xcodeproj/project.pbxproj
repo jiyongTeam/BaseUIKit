@@ -12,6 +12,14 @@
 		F4C82D3323063D0500A5D241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C82D3123063D0500A5D241 /* Main.storyboard */; };
 		F4C82D3523063D0800A5D241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C82D3423063D0800A5D241 /* Assets.xcassets */; };
 		F4C82D3823063D0800A5D241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C82D3623063D0800A5D241 /* LaunchScreen.storyboard */; };
+		F4C82D48230654E900A5D241 /* JYBaseTextFiled.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D40230654E900A5D241 /* JYBaseTextFiled.swift */; };
+		F4C82D49230654E900A5D241 /* JYBaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D41230654E900A5D241 /* JYBaseScrollView.swift */; };
+		F4C82D4A230654E900A5D241 /* JYBaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D42230654E900A5D241 /* JYBaseButton.swift */; };
+		F4C82D4B230654E900A5D241 /* JYBaseTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D43230654E900A5D241 /* JYBaseTableView.swift */; };
+		F4C82D4C230654E900A5D241 /* JYBaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D44230654E900A5D241 /* JYBaseLabel.swift */; };
+		F4C82D4D230654E900A5D241 /* JYBaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D45230654E900A5D241 /* JYBaseImageView.swift */; };
+		F4C82D4E230654E900A5D241 /* JYBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D46230654E900A5D241 /* JYBaseView.swift */; };
+		F4C82D4F230654E900A5D241 /* JYUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C82D47230654E900A5D241 /* JYUIModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		F4C82D3423063D0800A5D241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C82D3723063D0800A5D241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4C82D3923063D0800A5D241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C82D40230654E900A5D241 /* JYBaseTextFiled.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseTextFiled.swift; sourceTree = "<group>"; };
+		F4C82D41230654E900A5D241 /* JYBaseScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseScrollView.swift; sourceTree = "<group>"; };
+		F4C82D42230654E900A5D241 /* JYBaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseButton.swift; sourceTree = "<group>"; };
+		F4C82D43230654E900A5D241 /* JYBaseTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseTableView.swift; sourceTree = "<group>"; };
+		F4C82D44230654E900A5D241 /* JYBaseLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseLabel.swift; sourceTree = "<group>"; };
+		F4C82D45230654E900A5D241 /* JYBaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseImageView.swift; sourceTree = "<group>"; };
+		F4C82D46230654E900A5D241 /* JYBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseView.swift; sourceTree = "<group>"; };
+		F4C82D47230654E900A5D241 /* JYUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYUIModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,7 @@
 		F4C82D2123063D0500A5D241 = {
 			isa = PBXGroup;
 			children = (
+				F4C82D3F230654E900A5D241 /* UIKit */,
 				F4C82D2C23063D0500A5D241 /* JYUIKit */,
 				F4C82D2B23063D0500A5D241 /* Products */,
 			);
@@ -62,6 +79,21 @@
 				F4C82D3923063D0800A5D241 /* Info.plist */,
 			);
 			path = JYUIKit;
+			sourceTree = "<group>";
+		};
+		F4C82D3F230654E900A5D241 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				F4C82D40230654E900A5D241 /* JYBaseTextFiled.swift */,
+				F4C82D41230654E900A5D241 /* JYBaseScrollView.swift */,
+				F4C82D42230654E900A5D241 /* JYBaseButton.swift */,
+				F4C82D43230654E900A5D241 /* JYBaseTableView.swift */,
+				F4C82D44230654E900A5D241 /* JYBaseLabel.swift */,
+				F4C82D45230654E900A5D241 /* JYBaseImageView.swift */,
+				F4C82D46230654E900A5D241 /* JYBaseView.swift */,
+				F4C82D47230654E900A5D241 /* JYUIModel.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +167,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4C82D4E230654E900A5D241 /* JYBaseView.swift in Sources */,
 				F4C82D3023063D0500A5D241 /* ViewController.swift in Sources */,
+				F4C82D49230654E900A5D241 /* JYBaseScrollView.swift in Sources */,
+				F4C82D48230654E900A5D241 /* JYBaseTextFiled.swift in Sources */,
+				F4C82D4B230654E900A5D241 /* JYBaseTableView.swift in Sources */,
+				F4C82D4D230654E900A5D241 /* JYBaseImageView.swift in Sources */,
+				F4C82D4F230654E900A5D241 /* JYUIModel.swift in Sources */,
+				F4C82D4A230654E900A5D241 /* JYBaseButton.swift in Sources */,
+				F4C82D4C230654E900A5D241 /* JYBaseLabel.swift in Sources */,
 				F4C82D2E23063D0500A5D241 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
