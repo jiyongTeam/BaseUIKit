@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JYUIKit"
-  spec.version      = "1.1.2"
-  spec.summary      = "JY team UIKit"
+  spec.version      = "1.1.3"
+  spec.summary      = "JY team JYUIKit"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  JY team UIKit project use
+  JY team JYUIKit project use
                    DESC
 
   spec.homepage     = "https://github.com/jiyongTeam/BaseUIKit"
