@@ -51,6 +51,7 @@
 		F4C82D6C2306782900A5D241 /* JYBaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseImageView.swift; sourceTree = "<group>"; };
 		F4C82D6D2306782900A5D241 /* JYBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseView.swift; sourceTree = "<group>"; };
 		F4C82D6E2306782900A5D241 /* JYUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYUIModel.swift; sourceTree = "<group>"; };
+		F4C82D77230686DE00A5D241 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +106,7 @@
 				F4C82D6C2306782900A5D241 /* JYBaseImageView.swift */,
 				F4C82D6D2306782900A5D241 /* JYBaseView.swift */,
 				F4C82D6E2306782900A5D241 /* JYUIModel.swift */,
+				F4C82D77230686DE00A5D241 /* Header.h */,
 			);
 			name = UIKit;
 			path = "../../../JY-RTS/iOS/rts/Base/UIKit";
