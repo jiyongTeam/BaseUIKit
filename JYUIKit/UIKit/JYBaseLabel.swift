@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JYBaseLabel: UILabel {
+public class JYBaseLabel: UILabel {
 
 }
 

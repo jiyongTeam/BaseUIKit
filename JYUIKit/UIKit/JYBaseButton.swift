@@ -8,6 +8,6 @@
 
 import UIKit
 
-class JYBaseButton: UIButton {
+public class JYBaseButton: UIButton {
 
 }

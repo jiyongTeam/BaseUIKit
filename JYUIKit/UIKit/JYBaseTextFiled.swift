@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JYBaseTextFiled: UITextField {
+public class JYBaseTextFiled: UITextField {
     /// 初始化
     /// 统一通用配置
     /// - Parameter frame: <#frame description#>

@@ -8,6 +8,6 @@
 
 import UIKit
 
-class JYBaseImageView: UIImageView {
+public class JYBaseImageView: UIImageView {
 
 }

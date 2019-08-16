@@ -10,7 +10,7 @@ import UIKit
 /**
  *  快速创建基本控件
  */
-class JYUIModel: NSObject {
+public class JYUIModel: NSObject {
     //MARK: UILable
     /**
      *  快速创建Lab,默认只支持layout，默认显示一行，默认自动撑满

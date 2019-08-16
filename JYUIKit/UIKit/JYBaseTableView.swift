@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JYBaseTableView: UITableView {
+public class JYBaseTableView: UITableView {
 
 
 }

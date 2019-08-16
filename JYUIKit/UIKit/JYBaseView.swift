@@ -8,7 +8,7 @@
 
 import UIKit
 
-class JYBaseView: UIView {
+public class JYBaseView: UIView {
    
 }
 

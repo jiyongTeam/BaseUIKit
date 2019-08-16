@@ -8,6 +8,6 @@
 
 import UIKit
 
-class JYBaseScrollView: UIScrollView{
+public class JYBaseScrollView: UIScrollView{
 
 }
