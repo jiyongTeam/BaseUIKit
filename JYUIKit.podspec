@@ -119,7 +119,6 @@ Pod::Spec.new do |spec|
   #
 
    spec.framework  = "UIKit", "Foundation"
-   spec.public_header_files = "JYUIKit/UIKit/*.{h}"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"

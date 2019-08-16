@@ -51,7 +51,6 @@
 		F4C82D8023068BA800A5D241 /* JYBaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseImageView.swift; sourceTree = "<group>"; };
 		F4C82D8123068BA800A5D241 /* JYBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYBaseView.swift; sourceTree = "<group>"; };
 		F4C82D8223068BA800A5D241 /* JYUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYUIModel.swift; sourceTree = "<group>"; };
-		F4C82D8B23068BD400A5D241 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +105,6 @@
 				F4C82D8023068BA800A5D241 /* JYBaseImageView.swift */,
 				F4C82D8123068BA800A5D241 /* JYBaseView.swift */,
 				F4C82D8223068BA800A5D241 /* JYUIModel.swift */,
-				F4C82D8B23068BD400A5D241 /* Header.h */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
