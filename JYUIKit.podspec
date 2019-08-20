@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "JYUIKit"
-  spec.version      = "1.1.3"
+  spec.version      = "1.1.4"
   spec.summary      = "JY team JYUIKit"
 
   # This description is used to generate tags and improve search results.

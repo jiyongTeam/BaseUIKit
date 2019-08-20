@@ -9,6 +9,18 @@
 import UIKit
 
 public class JYBaseView: UIView {
-   
+    
+    override public init(frame: CGRect) {
+        super.init(frame: frame)
+        self.translatesAutoresizingMaskIntoConstraints = false
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    deinit {
+        debugPrint("deinit: \(type(of: self))")
+    }
 }
 

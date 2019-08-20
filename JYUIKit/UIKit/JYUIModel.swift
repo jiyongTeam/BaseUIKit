@@ -20,9 +20,8 @@ public class JYUIModel: NSObject {
      *  @param  textAlignment 文字对齐方式,默认居左
      *  return  JYBaseLabel
      */
-    public static func creatLabe(text: String? , font: UIFont , textColor: UIColor , textAlignment: NSTextAlignment = .left) -> JYBaseLabel {
-        let lab = JYBaseLabel()
-        lab.translatesAutoresizingMaskIntoConstraints = false
+    public static func creatLabe(text: String? , font: UIFont = UIFont.systemFont(ofSize: 14) , textColor: UIColor = UIColor.init(hexString: "#9B9B9B") , textAlignment: NSTextAlignment = .left) -> JYBaseLabel {
+        let lab = JYBaseLabel(frame: CGRect.zero)
         lab.text = text
         lab.sizeToFit()
         lab.textAlignment = textAlignment
@@ -56,13 +55,12 @@ public class JYUIModel: NSObject {
     /// - Parameter name: 图像名称字符串
     /// - Returns: JYBaseImageView
     public static func createImageView(name: String? = nil) -> JYBaseImageView {
-        let imgView = JYBaseImageView()
+        let imgView = JYBaseImageView(frame: CGRect.zero)
         if let nameStr = name{
             let image = UIImage.init(named: nameStr)
             imgView.image = image
         }
         imgView.contentMode = .scaleAspectFill
-        imgView.translatesAutoresizingMaskIntoConstraints = false
         return imgView
     }
     
@@ -74,7 +72,6 @@ public class JYUIModel: NSObject {
      */
     public static func createView(bgColor: UIColor? = .white) -> JYBaseView {
         let view = JYBaseView()
-        view.translatesAutoresizingMaskIntoConstraints = false
         view.backgroundColor = bgColor
         return view
     }
@@ -88,7 +85,6 @@ public class JYUIModel: NSObject {
     /// - Returns: JYBaseTableView
     public static func createTableView(style: UITableView.Style = .plain, separatorStyle: UITableViewCell.SeparatorStyle = .none) -> JYBaseTableView{
         let t = JYBaseTableView.init(frame: CGRect.zero, style: style)
-        t.translatesAutoresizingMaskIntoConstraints = false
         t.separatorStyle = separatorStyle
         return t
     }
@@ -103,7 +99,6 @@ public class JYUIModel: NSObject {
     /// - Returns: JYBaseScrollView
     public static func createScrollView(showVScrollIndicator: Bool = false, showHScrollIndicator: Bool = false, bounces: Bool = false) -> JYBaseScrollView{
         let s = JYBaseScrollView()
-        s.translatesAutoresizingMaskIntoConstraints = false
         s.showsVerticalScrollIndicator = showVScrollIndicator
         s.showsHorizontalScrollIndicator = showHScrollIndicator
         s.bounces = bounces
@@ -119,13 +114,16 @@ public class JYUIModel: NSObject {
      *  @param  font 字号
      *  @param  textColor 字体颜色
      *  @param  textAlignment 对齐方式
+     *  @param  tincColor 光标颜色
      *
      *  return JYBaseTextFiled
      */
-    public static func createSystemTextField(font: UIFont , textColor: UIColor , textAlignment: NSTextAlignment = .left) -> JYBaseTextFiled {
+    public static func createField(font: UIFont = UIFont.systemFont(ofSize: 14), textColor: UIColor = UIColor.init(hexString: "#4A4A4A") , tincColor: UIColor? = nil , textAlignment: NSTextAlignment = .left) -> JYBaseTextFiled {
         let filed = JYBaseTextFiled()
-        filed.translatesAutoresizingMaskIntoConstraints = false
         setTextField(textField: filed, font: font, textColor: textColor, textAlignment: textAlignment)
+        if let color = tincColor {
+            filed.tintColor = color
+        }
         return filed
     }
     /// 内部设置输入框字体大小颜色和对齐方式
